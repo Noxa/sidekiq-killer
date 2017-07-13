@@ -43,3 +43,7 @@ end
 | grace_time      | Time to wait before quieting sidekiq (in seconds)                                           |
 | shutdown_wait   | Time to wait after quieting to finish off jobs before forcibly killing sidekiq (in seconds) |
 | shutdown_signal | Signal to use to shutdown sidekiq                                                           |
+
+## Acknowledgements
+
+This killer is based on the code from GitLab (https://gitlab.com/gitlab-org/gitlab-ce/).
